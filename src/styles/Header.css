@@ -1,0 +1,67 @@
+/* Header Section */
+.header {
+    background-color: #6a19d3;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Header Title */
+  .header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Navigation Styling */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #16a085;
+    color: white;
+  }
+  
+  nav a.active {
+    background-color: #16a085;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .header {
+      padding: 10px 15px;
+    }
+  
+    .header h1 {
+      font-size: 1.5rem;
+    }
+  
+    nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    nav a {
+      padding: 8px 12px;
+      font-size: 0.9rem;
+    }
+  }
+  

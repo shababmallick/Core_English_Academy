@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased; /* Smoother font rendering on webkit-based browsers */
+  -moz-osx-font-smoothing: grayscale; /* Smoother font rendering on Firefox on macOS */
+  line-height: 1.6; /* Improves readability */
+  background-color: #fafafa; /* Light background color for a clean look */
+  color: #333; /* Default dark text for better contrast */
+}
+
+code {
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #f4f4f4; /* Light background for code for better readability */
+  padding: 4px 8px; /* Adds spacing around code for better appearance */
+  border-radius: 4px; /* Slightly rounds corners of the code block */
+  font-size: 1rem; /* Ensures code is legible */
+  color: #d63384; /* Color that stands out (you can adjust this) */
+}
+
+/* Optional: Add styling for preformatted code blocks */
+pre {
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #1e1e1e; /* Dark background for preformatted code */
+  color: #dcdcdc; /* Light text for better contrast */
+  padding: 16px; /* Adds padding for easier readability */
+  border-radius: 4px; /* Smooth corners */
+  overflow-x: auto; /* Prevents code from overflowing horizontally */
+  white-space: pre-wrap; /* Ensures long lines wrap within the container */
+}

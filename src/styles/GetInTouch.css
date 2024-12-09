@@ -1,0 +1,86 @@
+/* Get In Touch Section */
+.get-in-touch {
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Contact Form Styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .submit-btn:active {
+    transform: scale(0.98);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .get-in-touch {
+      padding: 20px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+    }
+  
+    .submit-btn {
+      padding: 10px 20px;
+    }
+  }
+  

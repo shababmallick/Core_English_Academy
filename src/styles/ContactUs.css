@@ -1,0 +1,133 @@
+.contact-us {
+    padding: 30px;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f7fa;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2980b9;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-details p {
+    margin: 8px 0;
+    color: #34495e;
+    font-size: 1.1rem;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #34495e;
+    font-size: 1.1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #21618c;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .contact-us {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-form {
+        padding: 0 10px;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    input, textarea {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}

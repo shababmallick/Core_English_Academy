@@ -1,0 +1,107 @@
+.learn-more {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    padding: 40px;
+    line-height: 1.8; /* Adjusted for a more readable line height */
+    background-color: #f9f9f9; /* Added a light background color to improve readability */
+    border-radius: 8px; /* Slightly rounded corners for a soft effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1abc9c;
+    font-weight: 700; /* Stronger weight for more impact */
+    text-align: center; /* Centered title */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600; /* Slightly lighter for subheadings */
+  }
+  
+  ul {
+    list-style-type: square;
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555; /* Softer text color */
+    transition: color 0.3s ease;
+  }
+  
+  ul li:hover {
+    color: #16a085; /* Highlight list items on hover */
+  }
+  
+  strong {
+    font-weight: bold;
+    color: #16a085;
+  }
+  
+  .learn-more p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666; /* Softer color for paragraphs */
+  }
+  
+  .learn-more a {
+    color: #16a085;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .learn-more a:hover {
+    text-decoration: underline;
+    color: #007bff; /* Slight color change on hover for links */
+  }
+  
+  .cta-button {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Slightly lifts the button on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .learn-more {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+      text-align: left; /* Align the title left on smaller screens */
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    ul li {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      padding: 12px 20px;
+      font-size: 1rem;
+      margin-top: 20px;
+    }
+  }
+  

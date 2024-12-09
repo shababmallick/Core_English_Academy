@@ -1,0 +1,56 @@
+/* src/styles/PageNotFound.css */
+.page-not-found {
+  text-align: center;
+  padding: 60px 20px; /* Adjusted for better spacing */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f9f9f9; /* Light background for contrast */
+  min-height: 100vh; /* Ensures full height of the page */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-not-found h1 {
+  font-size: 8rem; /* Adjusted size for better scaling */
+  color: #ff6347; /* Bright color for emphasis */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.page-not-found p {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #555; /* Softer text color for readability */
+  max-width: 600px; /* Limits text width for better readability */
+}
+
+.back-home-btn {
+  font-size: 1.2rem;
+  color: white;
+  background-color: #007bff;
+  padding: 12px 25px; /* Slightly larger padding for a more prominent button */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s; /* Added smooth transition for hover effects */
+}
+
+.back-home-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Subtle lifting effect for the button */
+}
+
+@media (max-width: 768px) {
+  .page-not-found h1 {
+    font-size: 5rem; /* Adjusted for smaller screens */
+  }
+
+  .page-not-found p {
+    font-size: 1.2rem; /* Slightly smaller text on mobile */
+  }
+
+  .back-home-btn {
+    font-size: 1rem; /* Reduced font size for mobile */
+    padding: 10px 20px; /* Adjusted button padding */
+  }
+}
